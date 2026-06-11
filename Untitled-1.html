@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiHao's CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        /* 顶部导航栏 */
+        header {
+            background-color: #b6cd4e;
+            color: rgba(255, 255, 255, 0.901);
+            display: flex;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #fff;
+            overflow: hidden;
+            margin-right: 20px;
+        }
+
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .header-title {
+            flex-grow: 1;
+        }
+
+        .header-title h1 {
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            opacity: 0.9;
+            transition: opacity 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+
+        /* 个人介绍区域 */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-image: radial-gradient(circle, rgba(78, 205, 196, 0.1) 0%, transparent 70%);
+        }
+
+        .hero .position {
+            color: #4ecdc4;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .hero .career-note {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 50px;
+        }
+
+        /* 通用区块样式 */
+        section {
+            padding: 40px 50px;
+        }
+
+        section h2 {
+            color: #4ecdc4;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* 底部装饰元素 */
+        .footer-decoration {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-img">
+            <!-- 替换为你的头像图片路径 -->
+            <img src="./touxiang.jpg" alt="Li Hao">
+        </div>
+        <div class="header-title">
+            <h1>Li Hao</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#work">Work Experience</a></li>       
+                <li><a href="#interest">Interesst</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <p class="position">student, Kunming University, China</p>
+        <p class="career-note">I am a lively, extroverted and warm-hearted young boy, quick-witted and always ready to help others.</p>
+    </div>
+
+    <section id="work">
+        <h2>Work Experience</h2>
+        <!-- 这里可以添加你的工作经历内容 -->
+         <ol>
+<li>Served as class organization committee member, responsible for event organization, document sorting and communication between teachers and students.</li>
+<li>Worked as a student union member, participating in campus event planning, copywriting and cross-department cooperation.</li>
+<li>Took part-time jobs during vacations, engaging in customer reception, data sorting and promotion work.</li>
+<li>Completed internship in an enterprise, assisting with data processing, document arrangement and basic business liaison.</li>
+<li>Joined the university volunteer association, took part in public welfare activities and handled on-site services and file management.
+</li>
+         </ol>
+    </section>
+
+    <!-- 其他区块可以按相同方式添加 -->
+  
+     <section id="interest">
+        <h2>interest</h2>
+
+        <ul>
+<li>taking photos</li>
+<li>running</li>
+<li>
+  <a href="tencentlaunch1104466820://"
+     onclick="event.preventDefault();
+              window.location.href='tencentlaunch1104466820://';
+              setTimeout(()=>{window.location.href='https://pvp.qq.com/'}, 500);"
+     target="_blank" rel="noopener noreferrer">
+    Play Honor of Kings
+  </a>
+</li>
+<li>
+  <a href="https://www.douyin.com" 
+     onclick="event.preventDefault(); 
+              window.location.href='douyin://'; 
+              setTimeout(()=>{window.location.href='https://www.douyin.com';}, 600);"
+     target="_blank" rel="noopener noreferrer">
+    browsing Douyin
+  </a>
+</li>
+
+        </ul>
+        
+        
+        
+        
+        </section>
+    <!-- <section id="contact">...</section> -->
+
+    <div class="footer-decoration">
+        <!-- 底部装饰图标（纸飞机、苹果、原子图标） -->
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#4ecdc4" stroke-width="2">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+        </svg>
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="#ff6b6b">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#4ecdc4" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <line x1="12" y1="2" x2="12" y2="22"/>
+        </svg>
+    </div>
+</body>
+</html>
